@@ -1,0 +1,18 @@
+node_modules/
+dist/
+
+.env
+.env.*
+!.env.example
+
+# SQLite database and its write-ahead log
+dev.db
+dev.db-shm
+dev.db-wal
+*.db
+*.db-shm
+*.db-wal
+
+# documentacao: so o README vai para o repositorio
+*.md
+!README.md
